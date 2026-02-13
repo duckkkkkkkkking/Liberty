@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.11)
 
 project(Liberty)
 
-set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD 20)
 find_package(Boost 1.60)
 
 add_library(${PROJECT_NAME} LibertyLibrary.cpp)
